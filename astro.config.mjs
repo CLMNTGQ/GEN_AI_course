@@ -1,10 +1,16 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import mermaid from 'astro-mermaid';
 
 export default defineConfig({
   site: 'https://clmntgq.github.io',
   base: '/GEN_AI_course',
   integrations: [
+    mermaid({
+      theme: 'forest',
+      autoTheme: true,
+      enableLog: false,
+    }),
     starlight({
       title: 'Generative AI Course',
       description: 'A structured, hands-on course covering the foundations, architectures, training, alignment, evaluation and applications of generative AI.',
