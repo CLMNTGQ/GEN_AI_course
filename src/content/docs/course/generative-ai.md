@@ -1,3 +1,8 @@
+---
+title: Generative Artificial Intelligence
+description: A comprehensive course covering the foundations, architectures, training, alignment, evaluation, and applications of generative AI.
+---
+
 # Generative Artificial Intelligence
 ### Course — Foundations, Architecture, Training, and the 2026 State of the Art
 
