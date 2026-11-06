@@ -12,9 +12,9 @@ export default defineConfig({
         src: './src/assets/hero.svg',
         alt: 'Generative AI Course',
       },
-      social: {
-        github: 'https://github.com/CLMNTGQ/GEN_AI_course',
-      },
+      social: [
+        { icon: 'github', label: 'GitHub', href: 'https://github.com/CLMNTGQ/GEN_AI_course' },
+      ],
       sidebar: [
         {
           label: 'Course',
@@ -27,7 +27,6 @@ export default defineConfig({
       editLink: {
         baseUrl: 'https://github.com/CLMNTGQ/GEN_AI_course/edit/main/',
       },
-      customCss: [],
       lastUpdated: true,
     }),
   ],
